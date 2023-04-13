@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #182C61;
+    padding: 16px;
+
+}
+
+.cabecalho {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ecf0f1;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.cabecalho-menu-item {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item a {
+    color: #ecf0f1;
+}
+
+/* Conteudo */
+
+.container-superior {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #413995;
+}
+
+.container-imagem {
+    margin-right: 32px;
+}
+
+.container-titulo {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.container-sobre img {
+    height: 24px;
+}
+
+.container-sobre li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.container-sobre p {
+    margin-bottom: 8px;
+}
+
+.contato {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    color: #413995;
+}
+
+.container-inferior {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.container-info {
+    color: #413995;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-info h2 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.container-info img {
+    height: 24px;
+}
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+}
+
+.fale-conosco form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fale-conosco input {
+    width: 320px;
+    height: 30px;
+}
+
+.fale-conosco textarea {
+    height: 150px;
+}
+
+input, textarea {
+    padding: 8px;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182C61;
+}
+
+.botao-form {
+    height: 40px;
+    background-color: #182C61;
+    color: #ecf0f1;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-form:hover {
+    background-color: #2b4aa0;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+}
+
+.social-links li {
+    margin-right: 8px;
+}
+
+/* Rodape */
+
+footer {
+    background-color: #182C61;
+}
+
+.container-footer {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    color: #ecf0f1;
+    padding: 16px 0;
+}

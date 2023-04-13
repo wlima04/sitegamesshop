@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Games Shop - A sua loja de games</title>
 </head>
 <body>
@@ -14,29 +14,29 @@
             <nav class="cabecalho-menu">
                 <ul>
                     <li class="cabecalho-menu-item">
-                        <a href="#"> Sobre a loja</a>
+                        <a href="#sobre"> Sobre a loja</a>
                     </li>
                     <li class="cabecalho-menu-item">
-                        <a href="#">Contato</a>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="container">
+        <section id="sobre" class="container-superior">
             <div class="container-imagem">
                 <img src="./image/loja.jpg" alt="Frente da loja">
             </div>
             <div class="container-sobre">
-            <h2 class="container-titulo">Sobre a loja</h2>
-            <p>
+                <h2 class="container-titulo">Sobre a loja</h2>
+                <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis numquam omnis illum rem corporis. Unde ipsa accusamus libero. Quaerat illo corrupti expedita architecto a quod inventore harum maxime, dolorem officiis.
-            </p>
-            <p>
+                </p>
+                <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sunt tempore distinctio repellat maiores nesciunt! Alias, nemo. Quaerat reprehenderit doloremque dolor ullam error, animi, provident sunt sapiente aspernatur placeat quas!
-            </p>
-            <ul>
+                </p>
+                <ul>
                 <li>
                     <img src="./image/nintendo.png" alt="Logo Nintendo">
                 </li>
@@ -46,25 +46,26 @@
                 <li>
                     <img src="./image/playstation.png" alt="Logo Playstation">
                 </li>
-            </ul>
+                </ul>
             </div>
         </section>
-        <section>
-            <section class="rodape">
-                <div class="container-rodape">
-                    <div class="contato">
-                        <h2>Contato</h2>
-                        <form>
-                            <input type="text" placeholder="Seu nome">
-                            <input type="email" placeholder="Seu e-mail">
-                            <input type="tel" placeholder="Seu telefone (opcional)">
-                            <textarea placeholder="Sua mensagem"></textarea>
-                            <button>Enviar</button>
-                        </form>
-                    </div>
+        <section id="contato">
+            <div class="container-inferior">
+                <h2 class="contato">Contato</h2>
+                <div class="container-info">
                     <div class="fale-conosco">
                         <h2>Fale conosco</h2>
-                        <ul>
+                        <form>
+                            <input type="text" placeholder="Seu nome" required>
+                            <input type="email" placeholder="Seu e-mail" required>
+                            <input type="tel" placeholder="Seu telefone (opcional)">
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                            <button class="botao-form">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="nos-acompanhe">
+                        <h2>Nos acompanhe</h2>
+                        <ul class="social-links">
                             <li>
                                 <a href="#" title="Siga-nos no Instagram">
                                     <img src="./image/instagram.png" alt="Logo Instagram">
@@ -84,13 +85,18 @@
                     </div>
                     <div class="endereco">
                         <h2>Venha até nós</h2>
-                        <p>Rua JavaScript, N° 124 - Vila HTML</p>
+                        <p>Rua HTML - Vila JavaScript, n°32 - São Paulo - SP</p>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
     </main>
     <footer>
+        <div class="container-footer">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
     </footer>
 </body>
 </html>
